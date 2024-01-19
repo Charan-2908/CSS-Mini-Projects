@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Student Registration Form </title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="shortcut icon" href="./website.png" type="image/x-icon">
+</head>
+<body>
+    <form action="https://formspree.io/f/xqkravwk" method="POST">
+    <h1>Student Registration form</h1> 
+    <table align="center" cellpadding="5">
+        <tr>
+            <td>Full Name :</td>
+            <td><input type="text" id="name" name="name" placeholder="Enter your Full Name" required></td>
+        </tr>
+        <tr>
+            <td> Email-Id :</td>
+            <td><input type="email" id="email" name="name" placeholder="xxxxxxx@gmail.com" required></td>
+        </tr>
+        <tr>
+            <td><label for="password"> Password :</label></td>
+            <td><input type="password" id="password" name="name" placeholder="Enter Your Password" required></td>
+        </tr>
+        <tr>
+            <td>Mobile Number :</td>
+            <td><input type="number" id="number" placeholder="9876******" maxlength="10" required></td>
+        </tr>
+        <tr>
+            <td> Date of Birth :</td>
+            <td><input type="Date" id="Dob" name="DOB" required></td>
+        </tr>
+        <tr>
+            <td>Gender :</td>
+        <td>
+            <input type="radio" name="name1" required>Male
+            <input type="radio" name="name1" required>Female </td>
+        </tr>
+        <tr>
+            <td>Address :</td>
+            <td><textarea rows="6" cols="25" placeholder="Enter your Address" required></textarea></td>
+        </tr>
+        <tr>
+            <td>State :</td>
+            <td><input type="text" id="state" name="name" placeholder="Name of your State" required></td>
+        </tr>
+        <tr>
+            <td>City :</td>
+            <td><input type="text" id="City" name="name" placeholder="Name of your City" required></td>
+        </tr>
+        <tr>
+            <td>Country :</td>
+            <td><input type="text" id="country" name="name" placeholder="Name of our Country" required></td>
+        </tr>
+        <tr>
+            <td>Pincode :</td>
+            <td><input type="number" id="code" name="name" placeholder="Pincode of your area" required></td>
+        </tr>
+        <tr>
+            <td>Course interested :</td>
+            <td><input type="radio" id="CSE" name="course" required><label for="CSE" >CSE</label>
+                <input type="radio" id="ECE" name="course" required><label for="ECE" >ECE</label>
+                <input type="radio" id="EEE" name="course" required><label for="EEE" >EEE</label>
+                <input type="radio" id="Others" name="course" required><label for="Others">Others</label></td>
+        </tr>
+        <tr>
+            <td align="center" colspan="5">
+                <input type="submit" value="Submit">
+                &nbsp;&nbsp; <input type="reset" value="Reset">
+            </td>
+        </tr>
+
+    </table>
+</form>
+</body>
+</html> 

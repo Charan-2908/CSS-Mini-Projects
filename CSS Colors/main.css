@@ -1,0 +1,22 @@
+body {
+    background-color: #f1f5f9;
+}
+
+#container {
+    color: #0000ff;
+}
+
+.grey {
+    background-color: #B5D99C;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.white {
+    background-color: #899E8B;
+    color: rgba(0,0,0,0.66);
+}
+
+.special {
+    background-color: #FFAE03;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
